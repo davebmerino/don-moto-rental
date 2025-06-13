@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), tailwindcss("tailwind-scrollbar-hide")],
-  base: "/don-moto-rental",
+  base: "/don-moto-rental/",
 });
