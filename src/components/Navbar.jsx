@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import logo from "../images/motorentallogo.jpg";
 
 export default function Navbar() {
