@@ -5,24 +5,37 @@ import Motocard from "./Motocard";
 
 const motorcycles = [
   {
-    name: "Yamaha XTZ",
-    image: "/images/xtz.jpg",
-    description: "Dual-sport bike, perfect for city and off-road",
+    name: "Click 125 Orange",
+    image: "./images/clickorange.jpg",
+    description: "2019 model, perfect for city riding and affordable",
     available: true,
   },
   {
-    name: "Honda Click 125",
-    image: "/images/click.jpg",
-    description: "Smooth, automatic scooter for daily use",
+    name: "Click 125 Black",
+    image: "./images/clickblack.png",
+    description: "2022 model, perfect for city riding and affordable",
     available: false,
   },
   {
-    name: "Suzuki Raider",
-    image: "/images/raider.jpg",
-    description: "Sporty and powerful underbone",
+    name: "Click 125 Red",
+    image: "./images/clickred.avif",
+    description: "2022 model, perfect for city riding and affordable",
     available: true,
   },
-  // Add more...
+  {
+    name: "Aerox 155 V2",
+    image: "./images/aerox.webp",
+    description:
+      "2024 model, Standard version, perfect for city riding and for long ride",
+    available: true,
+  },
+  {
+    name: "Nmax 155 V2",
+    image: "./images/nmax.jpg",
+    description:
+      "2024 model, ABS version, perfect for city riding and for long ride",
+    available: true,
+  },
 ];
 
 export default function Selectmoto() {
