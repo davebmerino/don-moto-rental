@@ -14,7 +14,7 @@ export default defineConfig({
       targets: [
         {
           src: "_redirects",
-          dest: ".", // put it at the root of dist/
+          dest: ".",
         },
       ],
     }),
