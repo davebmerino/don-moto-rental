@@ -5,7 +5,7 @@ import { viteStaticCopy } from "vite-plugin-static-copy";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/don-moto-rental/",
+  // base: "/don-moto-rental/",
   plugins: [
     react(),
     tailwindcss(),
