@@ -12,9 +12,9 @@ export default function Motocard({ bike }) {
           <p className="text-gray-600 text-sm">{bike.description}</p>
           <span
             className={`mt-2 inline-block px-3 py-1 text-xs font-medium rounded-full ${
-              bike.status === "Available"
-                ? "bg-green-100 text-green-700"
-                : "bg-red-100 text-red-700"
+              bike.available === true
+                ? "bg-green-300 text-green-900"
+                : "bg-red-300 text-red-500"
             }`}
           >
             {bike.status}
