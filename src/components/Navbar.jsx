@@ -28,22 +28,22 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              to={"/about-us"}
+              to={"/community"}
               className="text-[#0f172a] hover:text-[#64748b] transition-colors"
             >
-              About Us
+              Community
             </Link>
             <Link
-              to={"/contact"}
+              to={"/rent"}
               className="text-[#0f172a] hover:text-[#64748b] transition-colors"
             >
-              Contact
+              Rent Now
             </Link>
             <Link
-              to={"/motorcycle"}
+              to={"/login"}
               className="text-[#0f172a] hover:text-[#64748b] transition-colors"
             >
-              Motorcycles
+              Log In
             </Link>
           </div>
 

@@ -17,7 +17,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="relative w-full h-[650px] overflow-hidden">
+    <div className="relative w-full h-[400px] md:h-[600px] lg:h-[650px] overflow-hidden">
       {banners.map((banner, i) => (
         <div
           key={i}
