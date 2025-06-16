@@ -7,11 +7,11 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full z-40 bg-[#f8fafc] backdrop-blur-lg border-b border-white/10 shadow-lg">
-      <div className="max-w-5xl mx-auto py-2">
+      <div className="max-w-5xl mx-auto px-4 py-2">
         <div className="flex justify-between items-center h-16">
           <Link
             to={"/"}
-            className="font-mono text-xl font-bold text-[#0f172a] leading-4"
+            className="hidden md:block font-mono text-xl font-bold text-[#0f172a] leading-4"
           >
             Cebu Don <br />
             moto<span className="text-[#3b82f6]">.rental</span>
