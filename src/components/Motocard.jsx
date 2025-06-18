@@ -1,7 +1,7 @@
 export default function Motocard({ bike }) {
   return (
     <div className="p-4">
-      <div className="bg-white shadow-md hover:shadow-lg transition rounded-xl overflow-hidden flex flex-col items-center text-center">
+      <div className="md: bg-white shadow-md hover:shadow-lg transition rounded-xl overflow-hidden flex flex-col items-center text-center">
         <img
           src={bike.image}
           alt={bike.name}

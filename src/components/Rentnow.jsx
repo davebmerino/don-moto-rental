@@ -1,7 +1,7 @@
 export default function Rentnow() {
   return (
     <>
-      <div className="relative bg-rental-hero bg-cover bg-center  bg-no-repeat py-32 px-4">
+      <div className="relative bg-rental-hero bg-cover bg-center w-full h-[400px] md:h-[600px] lg:h-[650px] overflow-hidden  bg-no-repeat py-32 px-4">
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-40 z-0"></div>
 
