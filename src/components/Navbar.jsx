@@ -93,21 +93,21 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
               className="block px-3 py-2 rounded-md text-base font-medium text-[#0f172a] hover:text-white hover:bg-gray-700"
             >
-              About Us
+              Community
             </Link>
             <Link
               to={"/contact"}
               onClick={() => setMenuOpen(false)}
               className="block px-3 py-2 rounded-md text-base font-medium text-[#0f172a] hover:text-white hover:bg-gray-700"
             >
-              Contct
+              Rent Now
             </Link>
             <Link
               to={"/motorcycle"}
               onClick={() => setMenuOpen(false)}
               className="block px-3 py-2 rounded-md text-base font-medium text-[#0f172a] hover:text-white hover:bg-gray-700"
             >
-              Motorcycles
+              Log In
             </Link>
           </div>
         </div>
