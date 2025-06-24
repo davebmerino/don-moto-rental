@@ -72,7 +72,7 @@ export default function Selectmoto() {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto">
+      <div className="w-full max-w-6xl mx-auto px-4">
         <Slider {...settings}>
           {motorcycles.map((bike) => (
             <Motocard key={bike.id} bike={bike} />

@@ -49,7 +49,7 @@ export default function Hero() {
         </p>
         <div className="mt-6 flex justify-center gap-4">
           <button className="bg-[#3b82f6] hover:bg-[#f8fafc] cursor-pointer text-[#1e293b] font-medium px-6 py-3 rounded-full transition">
-            Rent Now
+            Rent
           </button>
           <button className="border border-white hover:bg-white hover:text-black text-white px-6 py-3 rounded-full transition">
             Explore

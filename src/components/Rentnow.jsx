@@ -3,11 +3,11 @@ export default function Rentnow() {
     <>
       <div className="relative bg-rental-hero bg-cover bg-center w-full h-[400px] md:h-[600px] lg:h-[650px] overflow-hidden  bg-no-repeat py-32 px-4">
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black opacity-40 z-0"></div>
+        <div className="absolute inset-0 bg-black/50 opacity-90 z-0"></div>
 
         {/* Content */}
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto">
-          <p className="uppercase tracking-widest text-sm text-yellow-400 mb-2">
+          <p className="uppercase tracking-widest  font-bold text-[#3b82f6] mb-2 ">
             Rent Now
           </p>
           <h1 className="text-4xl md:text-5xl font-bold mb-10">
@@ -34,7 +34,7 @@ export default function Rentnow() {
               defaultValue="2025-06-24"
             />
 
-            <button className="bg-yellow-400 hover:bg-yellow-500 transition-all px-6 py-3 text-black font-medium rounded-full text-sm w-full md:w-auto">
+            <button className="bg-[#1e293b] cursor-pointer hover:bg-[#3b82f6] transition-all px-6 py-3 text-white font-medium rounded-full text-sm w-full md:w-auto">
               Rent Now
             </button>
           </div>
