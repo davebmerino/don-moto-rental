@@ -32,7 +32,7 @@ export default function LogIn() {
   }, [navigate]);
 
   return (
-    <div className="flex justify-center items-center align-middle py-6 mt-20 bg-[#f8fafc]">
+    <div className="flex justify-center items-center align-middle py-6 mt-20 gap-10 bg-[#f8fafc]">
       <Auth
         supabaseClient={supabase}
         appearance={{ theme: ThemeSupa }}

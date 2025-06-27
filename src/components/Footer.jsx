@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           {/* Logo & Description */}
           <div className="flex items-center gap-4">
-            <img src={logo} alt="Logo" className="w-12 h-12 rounded-full" />
+            <img src={logo} alt="Logo" className="w-25 h-25 rounded-full" />
             <div>
               <h4 className="text-xl font-bold">Cebu Don Moto Rentals</h4>
               <p className="text-sm text-[#cbd5e1]">

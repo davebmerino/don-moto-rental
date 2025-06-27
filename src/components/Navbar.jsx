@@ -51,8 +51,8 @@ export default function Navbar() {
             moto<span className="text-[#3b82f6]">.rental</span>
           </NavLink>
 
-          <div className="h-10 w-10">
-            <img className="h-[40px] w-[40px]" src={logo} alt="Logo" />
+          <div className="h-20 w-20">
+            <img className="h-full w-full" src={logo} alt="Logo" />
           </div>
 
           {/* Desktop nav */}
