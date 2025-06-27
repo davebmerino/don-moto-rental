@@ -1,6 +1,5 @@
 import About from "../components/About";
 import ContactUs from "../components/ContactUs";
-import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Rentnow from "../components/Rentnow";
 import Rentsteps from "../components/Rentsteps";
@@ -20,7 +19,6 @@ export default function Home() {
         <Selectmoto />
         <ContactUs />
         <Reviews />
-        <Footer />
       </>
     </div>
   );
