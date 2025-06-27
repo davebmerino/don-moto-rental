@@ -24,6 +24,7 @@ export default function Mobilenav({
             >
               Home
             </NavLink>
+
             <NavLink
               to="/community"
               onClick={() => setMenuOpen(false)}
